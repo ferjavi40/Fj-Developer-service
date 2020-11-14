@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* font awesome */
+
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+/* globales */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    list-style: none;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+/* Nav */
+
+label.logo {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+nav span {
+    color: #0066cc;
+}
+
+
+/* Carousel */
+
+header {
+    height: 100vh;
+}
+
+.carousel a {
+    text-decoration: none;
+}
+
+.carousel-item {
+    /* height: 100vh; */
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-baground-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 250px
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+}
+
+.navbar-nav a {
+    font-size: 18px;
+    margin-right: 1em;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+    border: 1px solid #0066cc;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+
+/* empieza el section tarjetas con efectos  */
+
+.tarjetas {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.tarjetas h1 {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.tarjetas p {
+    margin-bottom: 8em;
+}
+
+.img_seccion {
+    height: 400px;
+    width: 100%;
+}
+
+
+/* testimonial */
+
+.blue-text {
+    color: #0066cc;
+}
+
+.texto-testimonio {
+    font-size: 2em;
+}
+
+
+/* footer */
+
+
+/* Aqui empieza la seccion de nosotros */
+
+.masthead {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.masthead h2 {
+    font-size: 1.6em;
+    margin-bottom: 1.2em;
+    padding-top: 0.7em;
+}
+
+.masthead p {
+    text-align: justify;
+}
+
+.color-fondo-letras {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/* aqui empieza la seccion de servicios */
+
+.card-img-top-200 {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+#postsCarousel {
+    transition: all 0.5s;
+}
+
+.texto100 {
+    display: none;
+}
+
+.texto200 {
+    display: none;
+}
+
+.texto300 {
+    display: none;
+}
+
+.texto400 {
+    display: none;
+}
+
+.texto500 {
+    display: none;
+}
+
+.texto600 {
+    display: none;
+}
+
+#para-margin {
+    height: 100px;
+}
+
+
+/* Aqui empieza el formulario */
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+.contact-form form {
+    padding: 8%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* seccion de confirma */
+
+#margenConfirma {
+    height: 100vh;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #carousel3 {
+        display: none;
+    }
+    #carousel6 {
+        display: none;
+    }
+    #logoConfirma {
+        margin-left: -6em;
+    }
+}
+
+
+/* Efecto underLine la linea debajo del texto */
+
+.under-line-effect::after {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.under-line-effect:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* efecto de boton para subir  */
+
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    z-index: -1;
+}
+
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: .2s;
+}
+
+.show {
+    z-index: 10;
+}
+
+.show .go-top-button {
+    animation: popup .3s ease-in-out;
+    width: 3.3rem;
+    height: 3.3rem;
+    z-index: 11;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+    0% {
+        width: 0rem;
+        height: 0rem;
+    }
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+    100% {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+}
